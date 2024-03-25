@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Component/Navbar";
-import removeBtn from "./Component/removeBtn";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +23,7 @@ export default function RootLayout({
         <Navbar/>
         {/* <removeBtn/> */}
         {children}
+      
         </div>
         </body>
     </html>

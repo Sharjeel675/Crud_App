@@ -1,10 +1,9 @@
 import React from 'react'
 
-const removeBtn = () => {
+const RemoveBtn = () => {
   return (
-                 // remove Button
-    <div>removeBtn</div>
+    <div>RemoveBtn</div>
   )
 }
 
-export default removeBtn
+export default RemoveBtn
