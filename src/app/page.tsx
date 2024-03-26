@@ -3,8 +3,10 @@ import Topicslist from "./Component/Topicslist";
 
 export default function Home() {
   return (
-    <main className="">
+    <main >
      <Topicslist/>
+   
+
     </main>
   );
 }
