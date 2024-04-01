@@ -1,3 +1,9 @@
-export default function Addtopic(){
-    return <div>Add Topic</div>;
+import React from 'react'
+
+const AddTopic = () => {
+  return (
+    <div>addTopic</div>
+  )
 }
+
+export default AddTopic
